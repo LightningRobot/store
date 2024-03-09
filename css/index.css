@@ -1,0 +1,199 @@
+.probootstrap-navabr-dark {
+    background: rgba(0, 0, 0, 0.2) !important;
+    position: absolute;
+    left: 0;
+    right: 0; }
+    @media screen and (max-width: 960px) {
+      .probootstrap-navabr-dark {
+        background: #000 !important;
+        top: 0;
+        position: relative; } }
+    .probootstrap-navabr-dark .navbar-nav > .nav-item > .nav-link {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      @media screen and (max-width: 960px) {
+        .probootstrap-navabr-dark .navbar-nav > .nav-item > .nav-link {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 0px;
+          padding-right: 0px; } }
+    .probootstrap-navabr-dark .navbar-nav > .nav-item.probootstrap-cta a {
+      color: #fff; }
+    .probootstrap-navabr-dark > .nav-item.probootstrap-seperator {
+      position: relative;
+      margin-left: 20px;
+      padding-left: 20px; }
+      @media screen and (max-width: 960px) {
+        .probootstrap-navabr-dark .navbar-nav > .nav-item.probootstrap-seperator {
+          padding-left: 0;
+          margin-left: 0; } }
+      .probootstrap-navabr-dark .navbar-nav > .nav-item.probootstrap-seperator:before {
+        position: absolute;
+        content: "";
+        top: 10px;
+        bottom: 10px;
+        left: 0;
+        width: 2px;
+        background: rgba(255, 255, 255, 0.05); }
+        @media screen and (max-width: 960px) {
+          .probootstrap-navabr-dark .navbar-nav > .nav-item.probootstrap-seperator:before {
+            display: none; } }
+  :root {
+    --primary-color: #FFC107;
+    --secondary-color: #007bff;
+  }
+  body {
+    background: #edc0bf;
+    background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+    font-family: 'Inter', sans-serif;
+  }
+  .plugins-list {
+    padding: 2rem 0;
+  }
+  
+  .plugins-list main {
+    text-align: center;
+  }
+  
+  .plugins-list h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .plugin-card {
+    background: linear-gradient(145deg, #e4bd79, #ffe18f);
+    width: auto;
+    height: 200px;
+    padding: 2rem;
+    border-radius: 1rem;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    margin-left: 40px; /* 设置左边距为20像素 */
+    margin-right: 40px; /* 设置右边距为20像素 */
+  }
+  
+  .plugin-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .plugin-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+  }
+  
+  .plugin-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plugin-card p {
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .plugin-card a.button {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  
+  .plugin-card a.button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  li {
+    list-style-type: none;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  footer a {
+    color: rgb(224, 255, 67)
+  }    
+  .probootstrap-nav {
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2); }
+    .probootstrap-nav .site-brand {
+      font-size: 20px; }
+      .probootstrap-nav .site-brand a {
+        color: #fff; }
+    .probootstrap-nav .probootstrap-toggle {
+      color: #fff !important;
+      position: absolute;
+      z-index: 10;
+      right: 20px;
+      top: 20px; }
+    .probootstrap-nav .probootstrap-main-nav {
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease; }
+      .probootstrap-nav .probootstrap-main-nav ul {
+        padding: 0;
+        margin: 0; }
+        .probootstrap-nav .probootstrap-main-nav ul li {
+          display: inline;
+          list-style: none; }
+          .probootstrap-nav .probootstrap-main-nav ul li a {
+            padding: 10px;
+            color: rgba(255, 255, 255, 0.5); }
+          .probootstrap-nav .probootstrap-main-nav ul li.seperator {
+            position: relative; }
+            .probootstrap-nav .probootstrap-main-nav ul li.seperator:before {
+              content: "";
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              height: 100%;
+              width: 2px;
+              background: rgba(255, 255, 255, 0.1); }
+      @media screen and (max-width: 768px) {
+        .probootstrap-nav .probootstrap-main-nav {
+          opacity: 0;
+          visibility: hidden;
+          position: absolute;
+          height: 100vh;
+          background: black;
+          width: 300px;
+          right: 0;
+          top: 0;
+          padding-top: 50px;
+          -webkit-transform: translateX(100%);
+          -ms-transform: translateX(100%);
+          transform: translateX(100%);
+          z-index: 1; }
+          .probootstrap-nav .probootstrap-main-nav.active {
+            opacity: 1;
+            visibility: visible;
+            -webkit-transform: translateX(0%);
+            -ms-transform: translateX(0%);
+            transform: translateX(0%); }
+          .probootstrap-nav .probootstrap-main-nav ul li {
+            display: block;
+            padding: 10px; }
+            .probootstrap-nav .probootstrap-main-nav ul li a:hover {
+              color: #fff; } }          
